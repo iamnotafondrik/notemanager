@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <!--Activity-->
+    <string name="label_note_list">Your notes</string>
+    <string name="label_full_note">New note</string>
+    <!--END-->
+    <string name="action_settings">Settings</string>
+    <string name="description">Enter the text…</string>
+    <string name="no_one_note">You don\'t have any notes.</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="by_date">By Change Date</string>
+    <string name="by_groups">By Groups</string>
+    <string name="by_order">By Order</string>
+    <string name="sorting">Sorting</string>
+    <string name="backup_download_failed">Downloading backup is failed</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="gps_error">Google Play Services error</string>
+    <string name="delete_note_message">Are your sure?</string>
+    <string name="regular_note">Regular</string>
+    <string name="important_note">Important</string>
+    <string name="wait">Wait</string>
+    <string name="wait_message">Please wait few seconds. We are downloading last backup…</string>
+    <string name="backup_download_succsses">Loading backup completed</string>
+    <string name="cant_share_empty_note">You can\'t share an empty note</string>
+
+    <string name="reminder">Reminder</string>
+    <string name="remind_me_in">Remind me in</string>
+    <string name="remind_half">30 minutes</string>
+    <string name="remind_one">1 hour</string>
+    <string name="remind_two">2 hours</string>
+    <string name="remind_three">3 hours</string>
+    <string name="remind_eight">8 hours</string>
+    <string name="home_note">Home</string>
+    <string name="work_note">Work</string>
+
+    <string name="widget_title">Pinned notes</string>
+    <string name="pin_in_widget">Pin in widget</string>
+    <string name="widget_no_one_note">You don\'t have any note.\nPress to open app.</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_account_title">Account</string>
+    <string name="log_out">Log out</string>
+    <string name="log_in">Log in via Google Account</string>
+    <string name="n_name">You are not authorized</string>
+    <string name="about_notes">About App</string>
+    <string name="remind_toast">We remind you at</string>
+</resources>

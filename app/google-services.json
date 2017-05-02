@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59825905964",
+    "firebase_url": "https://notemanager-28628.firebaseio.com",
+    "project_id": "notemanager-28628",
+    "storage_bucket": "notemanager-28628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59825905964:android:ffc1e0e344d3db13",
+        "android_client_info": {
+          "package_name": "com.iamnotafondrik.notesmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59825905964-e86440juk63cju8q9hh6r4t47ldt198f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamnotafondrik.notesmanager",
+            "certificate_hash": "F54134EC04BDE8B917E56BFF26B67290145DD56C"
+          }
+        },
+        {
+          "client_id": "59825905964-d8pofsvaujb2j2dfvnems76u1u294pp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr1w4LhWZxkeKpWSqpB2xJ2UgLeeEAJ18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59825905964-d8pofsvaujb2j2dfvnems76u1u294pp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

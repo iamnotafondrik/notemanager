@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_debug_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iamnotafondrik.notesmanager.DebugMenuActivity"
+    android:layout_margin="@dimen/dimen10dp">
+
+    <TextView
+        android:text="Database functions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        tools:ignore="HardcodedText"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Copy Database to Sdcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/debug_copy_db_to_sd"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Remove Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debug_copy_db_to_sd"
+        android:layout_alignParentStart="true"
+        android:id="@+id/debug_remove_db"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Remove Database from Cloud Storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debug_remove_db"
+        android:layout_alignParentStart="true"
+        android:id="@+id/debug_remove_db_cloud"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:text="Other functions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debug_remove_db_cloud"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Reset SharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/debug_reset_sp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
